@@ -1,0 +1,7 @@
+services:
+  ytmusic-websocket:
+    build: .
+    container_name: ytmusic-websocket
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
