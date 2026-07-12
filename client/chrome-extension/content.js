@@ -48,4 +48,5 @@ chrome.runtime.onMessage.addListener((msg) => {
             previous();
             break;
     }
+
 });
